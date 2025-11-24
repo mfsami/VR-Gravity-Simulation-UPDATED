@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 20edb29d91a80ed4da8a63031f7255a2
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/URP/SunURP.mat
+  uploadId: 754423

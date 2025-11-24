@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d37c0094d1f8e204286e0a6458b5754c
+timeCreated: 1456583030
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/URP/EuropaURP.mat
+  uploadId: 754423

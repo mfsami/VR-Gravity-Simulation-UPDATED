@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b4d5e8c7c8f38b44cb28e148f9117855
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/URP/NeptuneURP.mat
+  uploadId: 754423

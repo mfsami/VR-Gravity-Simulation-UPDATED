@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 779945587c910724a82faf302fb60589
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Prefabs/Orbits/PlutoOrbit.prefab
+  uploadId: 754423

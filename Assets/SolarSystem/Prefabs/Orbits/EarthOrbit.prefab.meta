@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a26481ae4440ba44b48d47a361fccdc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Prefabs/Orbits/EarthOrbit.prefab
+  uploadId: 754423

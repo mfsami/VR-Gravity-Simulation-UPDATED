@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed241f70c52b2814a940e59224c09b2f
+timeCreated: 1456348535
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/Phobos.mat
+  uploadId: 754423

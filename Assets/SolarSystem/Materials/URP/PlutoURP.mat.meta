@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b8d6921462a05f46b3820aee90a1394
+timeCreated: 1456247084
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/URP/PlutoURP.mat
+  uploadId: 754423

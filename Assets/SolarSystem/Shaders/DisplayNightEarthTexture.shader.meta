@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 172aa39ec183d814f98b5b42ecfee113
+timeCreated: 1455742687
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Shaders/DisplayNightEarthTexture.shader
+  uploadId: 754423

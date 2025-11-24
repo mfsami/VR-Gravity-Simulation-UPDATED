@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d163bbe905628f4478d85a2c5abbe961
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Prefabs/Orbits/NeptuneOrbit.prefab
+  uploadId: 754423

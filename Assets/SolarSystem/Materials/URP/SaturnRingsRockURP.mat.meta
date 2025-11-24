@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: dd65fb6373d1c794da3e2443f32b50ca
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Materials/URP/SaturnRingsRockURP.mat
+  uploadId: 754423

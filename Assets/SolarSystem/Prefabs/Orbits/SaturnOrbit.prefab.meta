@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bebbf428bbba3a648bb6887935ca56d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Prefabs/Orbits/SaturnOrbit.prefab
+  uploadId: 754423
