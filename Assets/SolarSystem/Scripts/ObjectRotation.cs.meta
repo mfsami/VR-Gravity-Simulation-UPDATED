@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bfae2d264c358d54db6e309262d20b2f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Scripts/ObjectRotation.cs
+  uploadId: 754423

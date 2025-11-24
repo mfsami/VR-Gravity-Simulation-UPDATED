@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: be778fc94c0ad6a4e8111df25884cdba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Scripts/Classes/AstronomicalBody.cs
+  uploadId: 754423

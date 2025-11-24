@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 557482d0a4cb6a14b983434bbabf8dbf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/Scripts/UIManager.cs
+  uploadId: 754423

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e543fda2f904cc04d8de926486d7bc93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16139
+  packageName: Solar System
+  packageVersion: 5.0
+  assetPath: Assets/SolarSystem/FollowOrbit/FollowOrbit.cs
+  uploadId: 754423
