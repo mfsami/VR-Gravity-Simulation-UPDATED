@@ -36,7 +36,8 @@ public class SceneLoader : MonoBehaviour
             return;
         }
 
-        SceneManager.LoadScene(sceneName);
+        ScreenFade.Instance.FadeAndLoad(sceneName);
+
     }
     public void ReloadScene()
     {
