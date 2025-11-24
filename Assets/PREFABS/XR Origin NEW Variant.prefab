@@ -100,33 +100,53 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23
       objectReference: {fileID: 0}
+    - target: {fileID: 3012657063629856221, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626569084965123574, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530851705220345595, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5938358226728740409, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370712151480686103, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.41596
+      value: 131.91
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.96961
+      value: 72.55
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.9238301
+      value: 139.49
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.49999982
+      value: 0.2588191
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8660255
+      value: -0.9659258
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -134,7 +154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 120
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 6618406254850635865, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -143,6 +163,10 @@ PrefabInstance:
     - target: {fileID: 6618406254850635866, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_Name
       value: XR Origin NEW Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793764612820823217, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6813725221597069158, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_AnchorMax.y
@@ -256,6 +280,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23
       objectReference: {fileID: 0}
+    - target: {fileID: 7528388830425109017, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8322297320468962596, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
       propertyPath: m_AndroidXRLeftHandMesh
       value: 
@@ -272,7 +300,12 @@ PrefabInstance:
       propertyPath: m_MetaQuestRightHandMesh
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8800407318905366215, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7031294743364341731, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6768232520545454570, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
     - {fileID: 2099700336251756839, guid: edfeb70dd6fd28949a274d4a2883d834, type: 3}
