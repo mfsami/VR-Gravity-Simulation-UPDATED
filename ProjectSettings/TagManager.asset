@@ -9,6 +9,8 @@ TagManager:
   - Satellite
   - Orbit
   - Earth
+  - MoonZone
+  - EarthZone
   layers:
   - Default
   - TransparentFX
