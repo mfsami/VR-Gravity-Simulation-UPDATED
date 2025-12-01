@@ -13,6 +13,7 @@ public class SceneFader : MonoBehaviour
 
     private void Start()
     {
+        gameObject.SetActive(true);
         rend = GetComponent<Renderer>();
         if (fadeOnStart)
         {
@@ -23,10 +24,13 @@ public class SceneFader : MonoBehaviour
     public void FadeIn()
     {
         Fade(1, 0);
+        gameObject.SetActive(false);
+
     }
 
     public void FadeOut()
     {
+        gameObject.SetActive(true);
         Fade(0, 1);
     }
 
