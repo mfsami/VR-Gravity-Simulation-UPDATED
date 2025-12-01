@@ -1,65 +1,58 @@
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
-public class ScreenFade : MonoBehaviour
+
+public class SceneFader : MonoBehaviour
 {
-    public static ScreenFade Instance { get; private set; }
-
-    [SerializeField] private CanvasGroup fadeCanvasGroup;
-    [SerializeField] private float fadeDuration = 1f;
-
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        Instance = this;
-    }
+    public bool fadeOnStart = true;
+    public float fadeDuration = 2f;
+    public Color fadeColor;
+    private Renderer rend;
 
     private void Start()
     {
-        if (fadeCanvasGroup != null)
-            fadeCanvasGroup.alpha = 0f;
-    }
-
-    public void FadeAndLoad(string sceneName)
-    {
-        if (fadeCanvasGroup == null)
+        rend = GetComponent<Renderer>();
+        if (fadeOnStart)
         {
-            Debug.LogError("ScreenFade: fadeCanvasGroup is not assigned.");
-            return;
+            FadeIn();
         }
-
-        StartCoroutine(FadeAndSwitchScene(sceneName));
     }
 
-    private IEnumerator FadeAndSwitchScene(string sceneName)
+    public void FadeIn()
     {
-        yield return StartCoroutine(Fade(0f, 1f));                    // fade to black
-        yield return SceneManager.LoadSceneAsync(sceneName);          // load
-        yield return null;                                            // wait a frame
-        yield return StartCoroutine(Fade(1f, 0f));                    // fade back in
+        Fade(1, 0);
     }
 
-    private IEnumerator Fade(float from, float to)
+    public void FadeOut()
     {
-        float t = 0f;
-        fadeCanvasGroup.alpha = from;
+        Fade(0, 1);
+    }
 
-        while (t < fadeDuration)
+    public void Fade(float alphaIn, float alphaOut)
+    {
+        StartCoroutine(FadeRoutine(alphaIn, alphaOut));
+
+    }
+
+    public IEnumerator FadeRoutine(float alphaIn, float alphaOut)
+    {
+        float timer = 0;
+
+        while(timer <= fadeDuration)
         {
-            t += Time.deltaTime;
-            fadeCanvasGroup.alpha = Mathf.Lerp(from, to, t / fadeDuration);
+            Color newColor = fadeColor;
+            newColor.a = Mathf.Lerp(alphaIn, alphaOut, timer / fadeDuration);
+
+            rend.material.SetColor("_BaseColor", newColor);
+
+            timer += Time.deltaTime;
             yield return null;
         }
 
-        fadeCanvasGroup.alpha = to;
+        Color newColor2 = fadeColor;
+        newColor2.a = alphaOut;
+        rend.material.SetColor("_Color", newColor2);
     }
 }
-
-
-
